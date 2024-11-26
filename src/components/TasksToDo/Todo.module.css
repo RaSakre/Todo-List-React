@@ -1,0 +1,35 @@
+.todo {
+	width: 432px;
+	min-height: 75px;
+	background-color: #15101C;
+	display: flex;
+	justify-content: space-between;
+	padding: 28px 21px;
+	border-radius: 10px;
+}
+
+
+.todoText {
+	color: #9E78CF;
+}
+
+.todoImages {
+	display: flex;
+	gap: 8px;
+}
+
+.deleteButton {
+    display: inline-block;
+    background: url('../../images/TrashSimple.svg') no-repeat 50% 50%;
+		width: 23px;
+		cursor: pointer;
+		transition: all 0.3s ease;
+}
+
+.deleteButton:hover{
+	background: url('../../images/TrashSimplehover.svg') no-repeat 50% 50%;
+}
+
+.doneButton:hover{
+	cursor: pointer;
+}

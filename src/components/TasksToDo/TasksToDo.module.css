@@ -1,0 +1,12 @@
+.tasksLength {
+	margin-top: 60px;
+	margin-bottom: 17px;
+	color: white;
+}
+
+.todoList {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
