@@ -1,8 +1,7 @@
-import checkIcon from '../../images/Check.svg'
 import axios from 'axios'
-import styles from './Todo.module.css'
 import { TodoContext } from 'src/App';
 import { useContext, useState } from 'react';
+import { TodoUI } from './TodoUI';
 
 export const Todo = (props:any) => {
 	const [task, setTask] = useState({
@@ -30,14 +29,10 @@ export const Todo = (props:any) => {
 		.then(res => res.json()).then(data => todoMeta.addDoneTodo(data))
 		todoMeta.deleteTodo(props.id)
 	}
-	console.log(todoMeta.doneTodoList)
 	return (
-	<div className={styles.todo}>
-		<h1 className={styles.todoText}>{props.title}</h1>
-		<div className={styles.todoImages}>
-		<img onClick={onDone} className={styles.doneButton} src={checkIcon} alt="" />
-		<img onClick={onDelete} className={styles.deleteButton} src='' alt="" />
-		</div>
-	</div>
+		<TodoUI
+		task={task}
+		onDelete={onDelete}
+		onDone={onDone} />
 	)
 }

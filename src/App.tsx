@@ -7,14 +7,14 @@ import { DoneTodoList } from './components/DoneTodos/DoneTodoList';
 
 
 
-interface ITodo {
+export interface ITodo {
   userId: number;
   id: number;
   title: string;
   completed: boolean;
 }
 
-interface TodoContextType {
+export interface TodoContextType {
   todoList: ITodo[];
 	doneTodoList: ITodo[];
   addTodo: (todo: ITodo) => void;
@@ -23,7 +23,6 @@ interface TodoContextType {
 	addDoneTodo: (todo: ITodo) => void;
 }
 
-// Создайте контекст с типом
 export const TodoContext = createContext<TodoContextType>({
 	todoList: [],
 	doneTodoList: [],
@@ -64,7 +63,6 @@ const TodoProvider = ({ children }: { children: ReactNode }) => {
     </TodoContext.Provider>
   );
 };
-
 
 
 function App() {

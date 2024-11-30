@@ -1,7 +1,12 @@
+import { ITodo } from 'src/App'
 import styles from './TodoInput.module.css'
-import { v4 as uuidv4 } from 'uuid';
 
-export const TodoInput = (props:any) => {
+type Props = {
+	setTask: (e: React.SetStateAction<ITodo>) => void
+	task: ITodo
+}
+
+export const TodoInput = (props:Props) => {
 	return (
 		<input onChange={(evt) => props.setTask({
 		...props.task, title: evt.target.value
