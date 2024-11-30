@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/todolist-react/static/css/main.c75076b0.css",
-    "main.js": "/todolist-react/static/js/main.bb14940c.js",
-    "static/media/TrashSimple.svg": "/todolist-react/static/media/TrashSimple.fda84fa2aacc30b144a9.svg",
-    "static/media/TrashSimplehover.svg": "/todolist-react/static/media/TrashSimplehover.bf5ef144aa609bef7276.svg",
-    "index.html": "/todolist-react/index.html",
-    "static/media/Check.svg": "/todolist-react/static/media/Check.0935e5ad7066e4dc8796d7dd0d7966ad.svg",
-    "main.c75076b0.css.map": "/todolist-react/static/css/main.c75076b0.css.map",
-    "main.bb14940c.js.map": "/todolist-react/static/js/main.bb14940c.js.map"
+    "main.css": "/Todo-List-React/static/css/main.c4dc2b4d.css",
+    "main.js": "/Todo-List-React/static/js/main.6318380c.js",
+    "static/media/TrashSimple.svg": "/Todo-List-React/static/media/TrashSimple.fda84fa2aacc30b144a9.svg",
+    "static/media/TrashSimplehover.svg": "/Todo-List-React/static/media/TrashSimplehover.bf5ef144aa609bef7276.svg",
+    "index.html": "/Todo-List-React/index.html",
+    "static/media/Check.svg": "/Todo-List-React/static/media/Check.0935e5ad7066e4dc8796d7dd0d7966ad.svg",
+    "main.c4dc2b4d.css.map": "/Todo-List-React/static/css/main.c4dc2b4d.css.map",
+    "main.6318380c.js.map": "/Todo-List-React/static/js/main.6318380c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c75076b0.css",
-    "static/js/main.bb14940c.js"
+    "static/css/main.c4dc2b4d.css",
+    "static/js/main.6318380c.js"
   ]
 }
