@@ -1,4 +1,4 @@
-import { ITodo } from 'src/App'
+import { ITodo } from '../../App'
 import styles from './TodoInput.module.css'
 
 type Props = {

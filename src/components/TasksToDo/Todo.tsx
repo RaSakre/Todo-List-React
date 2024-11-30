@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { TodoContext } from 'src/App';
+import { TodoContext } from '../../App';
 import { useContext, useState } from 'react';
 import { TodoUI } from './TodoUI';
 

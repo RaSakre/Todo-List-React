@@ -1,4 +1,4 @@
-import { TodoContextType } from 'src/App'
+import { TodoContextType } from '../../App'
 import styles from './DoneTodoList.module.css'
 import { DoneTodo } from './DoneTodo'
 

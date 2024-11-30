@@ -1,6 +1,6 @@
 import styles from './Todo.module.css'
 import checkIcon from '../../images/Check.svg'
-import { ITodo } from 'src/App'
+import { ITodo } from '../../App'
 
 
 

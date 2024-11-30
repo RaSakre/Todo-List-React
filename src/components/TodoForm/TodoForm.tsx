@@ -1,6 +1,6 @@
 import { FormEvent, useContext } from "react";
 import { TodoFormUI } from "./TodoFormUI";
-import { TodoContext } from "src/App";
+import { TodoContext } from "../../App";
 import { useState } from "react";
 
 export const TodoForm = () => {

@@ -1,4 +1,4 @@
-import { ITodo } from 'src/App'
+import { ITodo } from '../../App'
 import styles from './TodoForm.module.css'
 import { TodoInput } from '../TodoInput/TodoInput'
 import AddTodoButton from '../AddTodoButton/AddTodoButton'
