@@ -1,4 +1,12 @@
 .form {
-	display: flex;
-	align-items: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.taskError {
+  position: absolute;
+  top: 48px;
+  left: 10px;
+  color: red;
 }
