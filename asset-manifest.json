@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Todo-List-React/static/css/main.b248df2d.css",
-    "main.js": "/Todo-List-React/static/js/main.5ea58015.js",
+    "main.css": "/Todo-List-React/static/css/main.2091b83c.css",
+    "main.js": "/Todo-List-React/static/js/main.ee7eb7ec.js",
     "static/media/TrashSimple.svg": "/Todo-List-React/static/media/TrashSimple.fda84fa2aacc30b144a9.svg",
     "static/media/TrashSimplehover.svg": "/Todo-List-React/static/media/TrashSimplehover.bf5ef144aa609bef7276.svg",
+    "static/media/edit.svg": "/Todo-List-React/static/media/edit.6a9ffa364c0bca34a3321d3a89379805.svg",
     "index.html": "/Todo-List-React/index.html",
     "static/media/Check.svg": "/Todo-List-React/static/media/Check.0935e5ad7066e4dc8796d7dd0d7966ad.svg",
-    "main.b248df2d.css.map": "/Todo-List-React/static/css/main.b248df2d.css.map",
-    "main.5ea58015.js.map": "/Todo-List-React/static/js/main.5ea58015.js.map"
+    "main.2091b83c.css.map": "/Todo-List-React/static/css/main.2091b83c.css.map",
+    "main.ee7eb7ec.js.map": "/Todo-List-React/static/js/main.ee7eb7ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.b248df2d.css",
-    "static/js/main.5ea58015.js"
+    "static/css/main.2091b83c.css",
+    "static/js/main.ee7eb7ec.js"
   ]
 }
