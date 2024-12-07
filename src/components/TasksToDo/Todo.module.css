@@ -1,35 +1,55 @@
 .todo {
-	width: 432px;
-	min-height: 75px;
-	background-color: #15101C;
-	display: flex;
-	justify-content: space-between;
-	padding: 28px 21px;
-	border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 432px;
+  min-height: 75px;
+  border-radius: 10px;
+  padding: 28px 21px;
+  background-color: #15101c;
 }
 
-
 .todoText {
-	color: #9E78CF;
+  color: #9e78cf;
 }
 
 .todoImages {
-	display: flex;
-	gap: 8px;
+  display: flex;
+  gap: 8px;
 }
 
 .deleteButton {
-    display: inline-block;
-    background: url('../../images/TrashSimple.svg') no-repeat 50% 50%;
-		width: 23px;
-		cursor: pointer;
-		transition: all 0.3s ease;
+  display: inline-block;
+  width: 23px;
+  background: url("../../images/TrashSimple.svg") no-repeat 50% 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
-.deleteButton:hover{
-	background: url('../../images/TrashSimplehover.svg') no-repeat 50% 50%;
+.deleteButton:hover {
+  background: url("../../images/TrashSimplehover.svg") no-repeat 50% 50%;
 }
 
-.doneButton:hover{
-	cursor: pointer;
+.doneButton {
+  display: inline-block;
+  width: 22px;
+}
+
+.doneButton:hover {
+  cursor: pointer;
+}
+
+.editButton {
+  display: inline-block;
+  width: 22px;
+  cursor: pointer;
+}
+
+.editing {
+  color: #9e78cf;
+}
+
+.editingButton {
+  position: relative;
+  left: 130px;
+  color: #9e78cf;
 }
